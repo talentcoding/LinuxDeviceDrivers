@@ -1,4 +1,4 @@
-obj-m += ISR-handler_program.o
+obj-m += interrupt_program.o
  
 KDIR = /lib/modules/$(shell uname -r)/build
  
